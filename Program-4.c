@@ -11,12 +11,16 @@
 #include <stdio.h>
 int main()
 {
- 
+ int i,count=0;
+ char str[100];
     // Declare the required variables
     printf("Enter a string: ");
     scanf("%s",str);
-    for(i=0; str[i]!='\0'; ++i);
-       printf("The length of string = );
+    for(i=0; str[i]!='\0'; ++i)
+    {
+      count++;
+    }
+       printf("The length of string = %d",count );
        //Complete the missing code in result printing statement
     return 0;
 }
